@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif:400,400i,700,700i|Righteous|Faster+One|family=Shojumaru&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bangers&display=swap')
+
+h1, h2, h3, h4 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: brown;
+}
+body {
+  font-family: 'Noto Serif', serif;
+  font-weight: 400;
+  background-image: url("../Images/Wallpaper.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 50% 75%;
+  margin: 0px;
+}
+
+#top-header {
+  font-family: 'Poppins';
+  border-bottom: 2px solid #000;
+  background: #e83;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+
+#top-header h1 {
+  font-weight: 500;
+  margin-right: 20px;
+  text-shadow: 2px 1px 3px #000;
+}
+
+#top-header h3 {
+  font-weight: 300;
+}
+
+main {
+  width: 1000px;
+  margin: auto;
+  background: rgba(238, 136, 51, .9);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 4px 0px 6px -1px rgba(0,0,0,.6), -4px 0px 6px -1px rgba(0,0,0,.6);
+  z-index: 2;
+}
+
+#boyFights {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: flex-start;
+  font-family: 'faster one';
+  margin-top: 100px;
+}
+
+.boySearch,  {
+  margin-left: 10px;
+  width: 150px
+  margin-right: 5px;
+  border-radius: 3px;
+  border: 1px solid;
+}
+
+.boySearch:focus {
+  background: #ff8e8e;
+  color: #740000;
+  border: 1px solid #740000;
+}
+
+
+#Teamocil {
+  width: 700px;
+  margin:auto;
+  margin-top: 20px;
+  border: 2px solid;
+  display: flex;
+  flex-direction: row;
+  background: #e83;
+  justify-content: center;
+}
+
+#bluthBlurb {
+  margin-right: 15px;
+}
+#bluthFamily {
+  margin-right: 15px;
+  height: 400px;
+  width: 100%;
+}
+
+
+
+#dontBuy {
+  width: 1000px;
+  margin:auto;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+#bobLoblaw {
+  display: flex;
+  width: 1000px;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+#bobLoblaw heading {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  min-width: 0;
+}
+
+#bobLoblaw img {
+  width: 389px;
+  height: 219px;
+  border-style: solid;
+  border-color: #a33e0b;
+}
+#bobPic {
+  border-width: 6px 0 6px 6px;
+}
+#lawPic {
+  border-width: 6px 6px 6px 0;
+}
+ #bobLoblaw content {
+   display: flex;
+   justify-content: space-around;
+   flex-direction: row;
+   margin: 15px;
+ }
+
+ #lawLeft, #lawRight {
+   width: 480px;
+ }
+.moreLink {
+  font-style: italic;
+}
+article {
+  max-width: 29%;
+  height: 850px;
+  vertical-align: top;
+  padding: 10px;
+  margin: 10px;
+}
+
+article img {
+  max-width: 100%;
+  height:100px;
+}
+
+.article-image {
+  height: 400px;
+  width: 100%;
+  background-size:cover !important;
+  background-position: center !important;
+
+}
+
+article:active {
+  opacity: .7;
+}
+
+.openingsText {
+  width: 500px;
+  resize: none;
+
+}
